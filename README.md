@@ -1,12 +1,9 @@
 # Black_Hole_40
 Black_Hole_40
 
-# Black_Hole_39
-Black_Hole_39
-
 @Author Jurijus Pacalovas 
 
-Black Hole 39 Algorithm:
+Black Hole 40 Algorithm:
 
 Times compress 1-255
 
