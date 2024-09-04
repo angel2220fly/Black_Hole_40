@@ -920,7 +920,7 @@ class compression:
                                                                 if (
                                                                     En
                                                                     <= (
-                                                                        2**27)
+                                                                        2**27
                                                                     )
                                                                     - 1
                                                                 ):
