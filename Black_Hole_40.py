@@ -1545,7 +1545,7 @@ class compression:
 
                                                 block += 3
 
-                                                if En <= (((2**27))) - 1:
+                                                if En <= (2**27) - 1:
 
                                                     OCl = INFO[
                                                         block : block + SEN
