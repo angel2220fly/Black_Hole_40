@@ -46,10 +46,10 @@ class compression:
 
             Row += 1
 
-            if Row == (8192 * (2**15)) - 1:
+            if Row == (2**27) - 1:
                 Row = 0
 
-            if En == (8192 * (2**15)) - 1:
+            if En == (2**27) - 1:
                 En = 255
             En += 1
 
@@ -493,13 +493,13 @@ class compression:
 
                                         block += En
 
-                                    if Find == 2 or Row == (8192 * (2**15)) - 2:
+                                    if Find == 2 or Row == (2**27) - 2:
 
                                         Find = 1
 
                                         Extract1 = 1
 
-                                    elif Row == (8192 * (2**15)) - 3 and Find == 3:
+                                    elif Row == (2**27)- 3 and Find == 3:
 
                                         smallest_longl_F_values = (
                                             find_smallest_longl_F_values(
@@ -1545,7 +1545,7 @@ class compression:
 
                                                 block += 3
 
-                                                if En <= (8192 * ((2**15))) - 1:
+                                                if En <= (((2**27))) - 1:
 
                                                     OCl = INFO[
                                                         block : block + SEN
