@@ -89,7 +89,7 @@ class compression:
 
             Clear = ""
 
-            name = "1"
+            name = input("What is name of file input? ")
 
             long_21 = len(name)
 
