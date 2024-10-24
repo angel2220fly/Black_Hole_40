@@ -324,7 +324,7 @@ class compression:
                                 tsr=2
                                 long_size_after_RLE=len(I8)
                                 long_size_before_RLE=len(I8)
-                                while tsr!=10:
+                                while tsr!=31:
                                     I8=IC
 
                                     tsr+=1
